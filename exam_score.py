@@ -9,18 +9,18 @@ st.header('Datos personales')
 
 def user_input_features():
   # Entrada
-  Horas estudiadas = st.number_input('Horas estudiadas:', min_value=0, max_value=100, value = 0)
-  horas sueño = st.number_input('horas sueño:',  min_value=0, max_value=24, value = 0)
+  Horas_estudiadas = st.number_input('Horas estudiadas:', min_value=0, max_value=100, value = 0)
+  horas_sueño = st.number_input('horas sueño:',  min_value=0, max_value=24, value = 0)
   asistencia = st.number_input('asistencia:', min_value=0, max_value=100, value = 0)
-  calif. pasadas = st.number_input('calif. pasadas:', min_value=0, max_value=100, value = 0)
+  calif_pasadas = st.number_input('calif. pasadas:', min_value=0, max_value=100, value = 0)
   calificacion = st.number_input('calificacion:', min_value=0, max_value=100, value = 0)
   
 
 
-  user_input_data = {'hours_studied': Horas estudiadas,
-                     'sleep_hours': horas sueño,
+  user_input_data = {'hours_studied': Horas_estudiadas,
+                     'sleep_hours': horas_sueño,
                      'attendance_percent': asistencia,
-                     'previous_scores': calif. pasadas,
+                     'previous_scores': calif_pasadas,
                      'exam_score': calificacion
                      }
 
